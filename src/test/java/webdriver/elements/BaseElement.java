@@ -2,9 +2,10 @@ package webdriver.elements;
 
 
 import org.junit.Assert;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import webdriver.BaseEntity;
 import webdriver.Browser;
@@ -12,7 +13,6 @@ import webdriver.Logger;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
 
 /**
  * Abstract class, describing base element.

@@ -4,11 +4,7 @@ package webdriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
-import webdriver.elements.Button;
-
-import java.util.List;
 
 import static org.testng.AssertJUnit.assertTrue;
 

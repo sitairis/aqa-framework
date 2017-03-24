@@ -1,7 +1,5 @@
 package webdriver;
 
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 /**

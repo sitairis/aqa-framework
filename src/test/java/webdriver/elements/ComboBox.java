@@ -1,13 +1,7 @@
 package webdriver.elements;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.ui.Quotes;
-
-import java.util.Iterator;
-import java.util.List;
 
 /**
  * Created by user on 18.03.2017.

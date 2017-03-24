@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 
-/**
- * Created by nikikuzi on 3/16/17.
- */
 public class MainPage extends BaseForm {
 
     private Button btnCatalog;

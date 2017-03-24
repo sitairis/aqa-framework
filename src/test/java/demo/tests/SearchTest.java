@@ -4,17 +4,10 @@ import demo.pages.CatalogPage;
 import demo.pages.MainPage;
 import demo.pages.ResultsPage;
 import demo.pages.TVPage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import webdriver.BaseTest;
-import webdriver.Logger;
-import webdriver.elements.Button;
-import webdriver.elements.Label;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 
 public class SearchTest extends BaseTest {

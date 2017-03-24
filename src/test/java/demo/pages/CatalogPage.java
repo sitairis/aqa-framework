@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 
-/**
- * Created by user on 18.03.2017.
- */
 public class CatalogPage extends BaseForm {
     private Button btnGoToListTVPage;
 

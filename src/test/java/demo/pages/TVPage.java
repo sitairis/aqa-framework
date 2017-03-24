@@ -1,13 +1,9 @@
 package demo.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.Select;
 import webdriver.BaseForm;
-import webdriver.elements.*;
+import webdriver.elements.TextBox;
 
-/**
- * Created by user on 18.03.2017.
- */
 public class TVPage extends BaseForm {
 
     public TVPage(String path){
