@@ -52,5 +52,4 @@ public class ResultsPage extends BaseForm {
         btnGoToTV.waitForIsElementPresent();
         btnGoToTV.click();
     }
-
 }
