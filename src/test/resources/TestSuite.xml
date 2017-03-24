@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+	<parameter name="xpathbtnGoToCatalog" value="//a[@class = 'b-main-navigation__link']/span[. = 'Каталог']"/>
+	<parameter name="classNameOfMainPage" value="project-navigation__flex"/>
+	<parameter name="xpathOfckbFirmOnResultsPage" value = "//span[@class = 'schema-filter__checkbox-text' and text() = 'Samsung']"/>
+	<parameter name="xpathOftxbPriceOnResultPage" value = "//input[@class = 'schema-filter-control__item schema-filter__number-input schema-filter__number-input_price' and @placeholder = 'до']"/>
+	<parameter name="xpathOftxbYearOnResultPage" value = "//input[@class = 'schema-filter-control__item schema-filter__number-input' and @placeholder = '2010']"/>
+	<parameter name="xpathOfcmbDiagonalFromOnResultPage" value = "//select[@class = 'schema-filter-control__item']"/>
+	<parameter name="xpathOfcmbDiagonalToOnResultPage" value = "//div[@class = 'schema-filter-control schema-filter-control_select'][position()=2]//select"/>
+	<parameter name="xpathOfbtnGoToListTVPageOnCatalogPage" value = "//a[@class = 'catalog-bar__link catalog-bar__link_strong' and text() = 'Телевизоры']"/>
+	<parameter name="classNameOfCataogPage" value = "g-middle-i"/>
+	<parameter name="valueOfPrice" value = "1000"/>
+	<parameter name="valueOfYear" value = "2013"/>
+	<parameter name="valueOfDiagonalFrom" value = "390"/>
+	<parameter name="valueOfDiagonalTo" value = "420"/>
+	<parameter name="valueOfFirm" value = "Samsung"/>
+	<parameter name="classNameOfTVPage" value = "catalog-masthead__title"/>
+	<parameter name="classNameOfResultPage" value="schema-header__title"/>
+	<parameter name="classNameOftxbFirmOnTVPage" value = "catalog-masthead__title"/>
+	<parameter name="ClassNameOftxbPriceOnTVPage" value = "//div[@class = 'offers-description__price offers-description__price_primary']/a"/>
+	<parameter name="ClassNameOftxbYearOnTVPage" value = "//td[normalize-space(text()) = 'Дата выхода на рынок']/following-sibling::td/span"/>
+	<parameter name ="xpathOfDiagonalOnTVPage" value = "//td[normalize-space(text()) = 'Диагональ экрана']/following-sibling::td/span"/>
+	<parameter name="openTV" value="//div[@class = 'schema-product__group'][position()=2]//img/.."/>
+	<test name="Demo Test" preserve-order="true">
+		<classes>
+ 			<class name="demo.tests.SearchTest" />
+        </classes>
+	</test>
+</suite>
