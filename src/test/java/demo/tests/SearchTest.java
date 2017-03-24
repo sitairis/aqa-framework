@@ -9,7 +9,6 @@ import webdriver.BaseTest;
 
 import java.util.List;
 
-
 public class SearchTest extends BaseTest {
 
       @Override
