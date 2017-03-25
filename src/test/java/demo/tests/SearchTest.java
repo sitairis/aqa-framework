@@ -38,7 +38,7 @@ public class SearchTest extends BaseTest {
           for(int i =1; i<size;i++){
               if(i == 3)
                   i++;
-              getBrowser().getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+              getBrowser().getDriver().manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
               resultsPage.openTV("//div[@class = 'schema-product__group' and position()=" + i + "]//a");
               getBrowser().waitForPageToLoad();
               TVPage tvPage = new TVPage(getClassNameOfTVPage());
