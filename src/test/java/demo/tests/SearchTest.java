@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import webdriver.BaseTest;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class SearchTest extends BaseTest {
 
