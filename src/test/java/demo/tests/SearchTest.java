@@ -15,7 +15,7 @@ public class SearchTest extends BaseTest {
       @Override
     public void runTest(){
           logStep();
-          MainPage mainPage = new MainPage(getClassNameOfMainPage());
+          //MainPage mainPage = new MainPage(getClassNameOfMainPage());
           mainPage.assertIsOpen();
           mainPage.chooseCatalog(getXpathbtnGoToCatalog());
 
